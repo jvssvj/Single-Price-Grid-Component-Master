@@ -1,0 +1,56 @@
+@media (max-width:680px) {
+    body {
+        overflow: auto;
+    }
+    .container {
+        height: 100%;
+    }
+    .card {
+        max-width: 311px;
+        max-height: 900px;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .card-1 {
+        padding: 1.5em;
+    }
+    .card-1 h1 {
+        font-size: 20px;
+    }
+
+    .card-1 span {
+        font-size: 15px;
+    }
+
+    .card-1 p {
+        font-size: 14px;
+        width: 267px;
+    }
+
+    .card-2 h1 {
+        font-size: 18px;
+    }
+
+    .card-3 ul {
+        width: 200px;
+    }
+
+    button {
+        width: 247px;
+    }
+
+    .attribution {
+        top: 75em;
+        white-space: nowrap;
+    }
+}
+
+@media (max-height:552px) {
+    .attribution {
+        display: none;
+    }
+}
+
